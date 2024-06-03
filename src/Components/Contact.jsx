@@ -8,7 +8,7 @@ function Contact() {
   return (
     <>
         <h1 className="text-center text-4xl text-white bg-[#0E182C] 2xl:w-4/6 xl:w-[75%] w-[100%] mx-auto underline" id="contact">Contact</h1>
-      <div className="contact-container px-16 py-16 bg-[#0E182C] 2xl:w-4/6 xl:w-[75%] w-[100%] mx-auto text-[#F3F4F6]">
+      <div className="contact-container md:px-16 px-4 md:py-16 py-4 bg-[#0E182C] 2xl:w-4/6 xl:w-[75%] w-[100%] mx-auto text-[#F3F4F6]">
         <h1 className=" mb-6 text-4xl">Let's Get in Touch: Ways to Connect with Me</h1>
         <p>
           Thank you for your interest in getting in touch with me. I welcome
