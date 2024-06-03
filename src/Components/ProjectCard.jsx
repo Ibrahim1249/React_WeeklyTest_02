@@ -9,9 +9,9 @@ function ProjectCard({info,name,github,html,css,javascript}) {
       <div className="project-card p-4 2xl:w-[30%] xl:w-[45%] lg:w-[50%] w-[100%]  text-[#F3F4F6] rounded-lg cursor-pointer hover:bg-[#101E38] transition-all">
          <div className="icon-container  mb-4">
             <div className="icons flex items-center justify-start gap-2 mb-4">
-                <img src={html} alt="" />
-                <img src={css} alt="" />
-                <img src={javascript} alt="" />
+                <img src={html} alt="" className="w-12"/>
+                <img src={css} alt="" className="w-12"/>
+                <img src={javascript} alt="" className="w-12"/>
             </div>
             <h3 className="text-lg">{name}</h3>
          </div>
